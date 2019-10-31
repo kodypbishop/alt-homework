@@ -1,0 +1,76 @@
+body{
+    position: relative;
+    min-height: 100vh;
+    background-image: url(../images/textured_paper.png);
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    position: relative;
+    width: 100vw;
+    background: #ffffff;
+    padding: 27px 0;
+    border-bottom: solid 8px #cccccc;
+    margin-bottom: 20px;
+}
+h1{
+    position: absolute;
+    padding: 12px;
+    background: #4aaaa5;
+    color: #ffffff;
+    left: calc(50% - 480px);
+    top: 0;
+    font-size: 30px;
+    font-weight: bolder;
+}
+h2{
+    font: 24px bolder;
+    color: #4aaaa5;
+    padding: 10px;
+}
+
+nav{
+    position: absolute;
+    right: calc(50% - 480px);
+    top: 35%;
+}
+main{
+    margin-top: 20px;
+    display: block;
+    width: 920px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 70px;
+    background: #ffffff;
+    border:5px #dddddd solid;
+}
+#imageMe{
+    float: left;
+    margin: 10px;
+}
+.portfolio{
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+}
+h3{
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 0;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100vw;
+    border-top: #4aaaa5 8px solid;
+    padding: 20px 0;
+    background:#666666 ;
+    color: #ffffff;
+}
